@@ -67,5 +67,5 @@ def delete_employee(id: int):
     return jsonify(employee), 200
 
 
-if __name__ == '__main__':
-    app.run(port=5000)
+# if __name__ == '__main__':
+#     app.run(port=5000)
